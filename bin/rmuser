@@ -1,0 +1,12 @@
+#!/usr/local/bin/bash
+
+echo "Removing user $1 from the system"
+userdel $1
+echo "Cleaning /home and /var/www/users"
+rm -rf /home/$1
+rm -rf /var/www/users/$1
+echo "Removing httpd config"
+rm -f /etc/httpd/$1.conf
+httpdpid=`pgrep httpd | awk 'NR==1{print $1}'`
+kill -HUP $httpdpid
+echo "Done! Don't forget to remove the appropriate include line from httpd-vusers.conf"

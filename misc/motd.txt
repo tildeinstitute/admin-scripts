@@ -1,0 +1,42 @@
+OpenBSD 6.4 (GENERIC.MP) #1: Mon Nov 26 10:18:14 CET 2018
+
+Welcome to the Tilde Institute!
+Please read the Code of Conduct on our web site before continuing.
+
+Mail clients available: mutt neomutt alpine
+
+Learned something cool today? Add it to the wiki!
+https://tilde.institute/wiki
+
+Common commands:
+chat            - Join us on IRC!
+tmux / screen   - Terminal multiplexer / session management
+chsh            - Change your interactive shell
+
+Games:
+holodeck        - Collaborative world-building!
+botany          - Plant a little garden!
+tron            - Play with other ~institute members!
+nethack         - The classic roguelike!
+angband         - Roguelike set in Middle-Earth
+zork            - The classic adventure game
+dcss            - Dungeon Crawl Stone Soup!
+                   (Connects to https://crawl.tildeverse.org)
+asciifarm       - Multi-user persistent social-farming game
+
+NEW!! Tildeverse Dungeon Crawl Stone Soup server!
+        Webtiles: https://crawl.tildeverse.org
+        ASCII: Run the command 'dcss'
+
+MUD Clients: tintin++ tinyfugue
+
+Latency issues? Use 'mosh' instead of 'ssh'
+Make sure your home PC's LANG and LC_CTYPE vars are set
+to a UTF-8 locale before connecting via mosh
+
+motd        - Repeat this message
+
+Please contact ahriman with any issues or questions.
+Available on chat in #institute
+or at ahriman@tilde.institute
+
