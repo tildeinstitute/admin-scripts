@@ -1,3 +1,3 @@
-# tilde.institute-backend
+# admin scripts
 
 Scripts that make tilde.institute work
