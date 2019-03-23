@@ -2,7 +2,6 @@
 # ---------------------------------------------------------------------------
 # makeuser - tilde.institute new user creation
 # Usage: makeuser [-h|--help] <username> <email> "<pubkey>"
-# Based on the tilde.team makeuser script, with some modifications
 # ---------------------------------------------------------------------------
 
 PROGNAME=${0##*/}
