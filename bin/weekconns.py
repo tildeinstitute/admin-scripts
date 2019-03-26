@@ -1,5 +1,10 @@
 #!/usr/local/bin/python3 -I
 
+# Lists the users who have connected in
+# the last week for the stats page at
+# https://tilde.institute/stats
+# ben@gbmor.dev
+
 from sys import exit
 import subprocess
 
