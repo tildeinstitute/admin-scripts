@@ -7,7 +7,7 @@ import random
 ## Uses a skeleton motd plus a random quote ##
 ## to produce a motd with a nifty quote.    ##
 ##------------------------------------------##
-## Created by ahriman - ahriman@falte.red   ##
+## Created by ahriman - ben@gbmor.dev       ##
 ## --> BSD 3-clause license applies         ##
 ##############################################
 

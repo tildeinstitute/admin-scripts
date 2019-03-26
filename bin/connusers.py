@@ -1,5 +1,8 @@
 #!/usr/local/bin/python3 -I
 
+# Lists currently connected users for https://tilde.institute/stats
+# ben@gbmor.dev
+
 from sys import exit
 import subprocess
 

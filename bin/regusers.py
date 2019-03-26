@@ -1,5 +1,9 @@
 #!/usr/local/bin/python3
 
+# Lists all the currently registered users extant on the system
+# for the stats page at https://tilde.institute/stats
+# ben@gbmor.dev
+
 import os
 import sys
 

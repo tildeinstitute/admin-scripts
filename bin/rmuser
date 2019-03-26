@@ -1,5 +1,9 @@
 #!/usr/local/bin/bash
 
+# Hopefully, this never has to be used.
+# Cleans up and removes a user from the system.
+# ben@gbmor.dev
+
 echo "Removing user $1 from the system"
 userdel $1
 echo "Cleaning /home and /var/www/users"

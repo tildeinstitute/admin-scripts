@@ -1,5 +1,7 @@
 #!/usr/local/bin/bash
 
+# Notifies users of newly received mail
+
 NewMail(){
     NEWMAIL=$(mailx &)
     UNREAD=$(echo $NEWMAIL |grep -o 'messages.*new' | cut -f2 -d" ")
