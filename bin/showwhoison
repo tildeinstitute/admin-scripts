@@ -1,0 +1,11 @@
+#!/usr/local/bin/bash
+
+# kneezle@tilde.institute
+# Shows connected users, including those
+# connected via mosh
+
+x=$(who | cut -d' ' -f1 )
+y=$(ps aux | grep mosh | cut -d' ' -f1)
+echo "Currently logged in users, including MOSH: "
+echo "$x" |sort | uniq
+echo "$y" | sort | uniq

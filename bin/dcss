@@ -1,0 +1,15 @@
+#!/bin/sh
+
+# downloads the ssh private key for 
+# user dcss@crawl.tildeverse.org
+# if it doesn't already exist
+# then connects
+
+SOURCEKEY="https://crawl.tildeverse.org/dcss.key"
+MYKEY="${HOME}/.ssh/dcss.key"
+if [ ! -f "$MYKEY" ]; then
+  mkdir -p "${HOME}/.ssh"
+  curl -s "$SOURCEKEY" > "$MYKEY"
+  chmod 600 "$MYKEY"
+fi
+ssh -i "$MYKEY" dcss@crawl.tildeverse.org
