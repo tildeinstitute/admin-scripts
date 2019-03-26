@@ -19,7 +19,7 @@ usage() {
 
 [[ $(id -u) != 0 ]] && error_exit "you must be the superuser to run this script."
 
-USERLIST=$(ls /home)
+USERLIST=$(</etc/passwd cut -d ":" -f1)
 if [[ $USERLIST == *$1* ]]; then
     error_exit "User already exists!"
 fi
