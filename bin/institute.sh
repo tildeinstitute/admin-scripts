@@ -4,6 +4,8 @@
 # This is the bash script used to automagically check for new submitted users
 # and add them to the Tilde Institute system.
 # It is intended to be run as a cron job every few minutes, or however long.
+# This script is currently not used. I chose to screen all new
+# users.
 #
 ####################################################
 #
