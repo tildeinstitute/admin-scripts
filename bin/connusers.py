@@ -13,10 +13,11 @@ def checkconns():
         print("Can't access connected user table. Who are you?")
         exit(0)
 
-    connusers = list(set(subprocess.check_output("/usr/bin/who -q; exit 0", stderr=subprocess.STDOUT,shell=True).decode().splitlines()[0].split()))
+    connusers = list(set(subprocess.check_output("/usr/local/bin/showwhoison | sed -n '1!p'; exit 0", stderr=subprocess.STDOUT,shell=True).decode().split("\n")))
     conntable.write("<ul>\n")
     for conn in connusers:
-        conntable.write("<li><a href=\"https://"+ conn +".tilde.institute\">"+ conn +"</a></li>\n")
+        if conn != "" and conn != "root":
+            conntable.write("<li><a href=\"https://"+ conn +".tilde.institute\">"+ conn +"</a></li>\n")
 
     conntable.write("</ul>\n")
 
