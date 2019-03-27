@@ -72,8 +72,7 @@ case $1 in
 # the main httpd config then gracefully
 # reload the httpd config
 	echo "include \"/etc/httpd/$1.conf\"" >> /etc/httpd-vusers.conf
-    httpdpid=`pgrep httpd | awk 'NR==1{print $1}'`
-    kill -HUP $httpdpid
+    pkill -HUP httpd
 
 # send welcome email
         sed -e "s/newusername/$1/g" /admin/misc/email.tmpl | doas -u admins mail -s "welcome to tilde.institute!" $2
