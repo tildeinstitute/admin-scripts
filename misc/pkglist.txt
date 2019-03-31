@@ -92,6 +92,7 @@ php-xmlrpc-7.0.32p1 XML RPC functions for php
 php-xsl-7.0.32p1    XSL functions for php
 php-zip-7.0.32p1    zip functions for php
 pico-5.09           UW text editor
+pigz-2.4p0          parallel implementation of gzip utilizing multiple cores
 portslist-6.8       full list of pkgpaths in ports
 pwgen-2.08          simple password generator
 py-pip-9.0.3        Python easy_install replacement
