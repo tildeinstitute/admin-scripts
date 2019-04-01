@@ -23,6 +23,8 @@ gmake-4.2.1         GNU make
 gnupg-2.2.10        GNU privacy guard - a free PGP replacement
 go-1.11             Go programming language
 gophernicus-2.5p0   modern gopher server
+gtar-1.30p0         GNU version of the traditional tape archiver
+hs-shellcheck-0.4.7p1 ShellCheck library
 inotify-tools-3.14pl0 programs providing a simple interface to inotify
 intel-firmware-20180807p0v0 microcode update binaries for Intel CPUs
 ircII-20170704p1    Internet Relay Chat client
@@ -108,10 +110,12 @@ rspamd-1.7.9p0      event-driven spam filtering system in C/Lua
 ruby-2.5.1          object oriented script language with threads
 rust-1.29.2         compiler for Rust Language
 screen-4.0.3p6      multi-screen window manager
+shellcheck-0.4.7p0  shell script analysis tool
 sic-1.2p1           simple irc client
 sl-5.02             Steam Locomotive
 stow-2.2.2          manages software package installations with symlinks
 subversion-1.10.2   subversion revision control system
+tarsnap-1.0.39      client for the tarsnap.com online encrypted backup service
 tcsh-6.20.00p1      extended C-shell with many useful features
 tintin-2.01.3       client program for playing muds with advanced features
 tinyfugue-4.0s1p4   programmable MUD client, with macro support and more
