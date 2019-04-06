@@ -35,6 +35,7 @@ kona-3.2.0.20180522 open source implementation of the K programming language
 ksql-0.3.2          yet another SQLite wrapper
 kwebapp-0.5.6       web application source generator
 libident-0.32p1     library to interface the ident protocol server (rfc1413)
+libslang-2.2.4p4    stack-based interpreter for terminal applications
 links-1.03p0        text browser, displays while downloading
 lowdown-0.4.1       simple markdown translator
 lynx-2.8.9rel1      text web browser
@@ -42,6 +43,7 @@ mariadb-server-10.0.36p0v1 multithreaded SQL database (server)
 mercurial-4.5.3p1   fast, lightweight source control management
 mongodb-3.2.13p2    scalable, high-performance document-oriented database
 mosh-1.3.2p1        mobile shell
+most-5.0.0ap0       browse or page through a text file
 mutt-1.10.1v3-gpgme-sasl tty-based e-mail client
 nano-3.1            Pico editor clone with enhancements
 nasm-2.13.03        general-purpose multi-platform x86 assembler
@@ -113,6 +115,7 @@ screen-4.0.3p6      multi-screen window manager
 shellcheck-0.4.7p0  shell script analysis tool
 sic-1.2p1           simple irc client
 sl-5.02             Steam Locomotive
+slrn-1.0.2p1        SLang-based newsreader
 stow-2.2.2          manages software package installations with symlinks
 subversion-1.10.2   subversion revision control system
 tarsnap-1.0.39      client for the tarsnap.com online encrypted backup service
