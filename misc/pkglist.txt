@@ -25,6 +25,7 @@ go-1.11             Go programming language
 gophernicus-2.5p0   modern gopher server
 gtar-1.30p0         GNU version of the traditional tape archiver
 hs-shellcheck-0.4.7p1 ShellCheck library
+hugo-0.49           fast and flexible static site generator
 inotify-tools-3.14pl0 programs providing a simple interface to inotify
 intel-firmware-20180807p0v0 microcode update binaries for Intel CPUs
 ircII-20170704p1    Internet Relay Chat client
@@ -97,6 +98,7 @@ php-xsl-7.0.32p1    XSL functions for php
 php-zip-7.0.32p1    zip functions for php
 pico-5.09           UW text editor
 pigz-2.4p0          parallel implementation of gzip utilizing multiple cores
+plan9port-20180117p3 Plan 9 from user space
 portslist-6.8       full list of pkgpaths in ports
 pwgen-2.08          simple password generator
 py-pip-9.0.3        Python easy_install replacement
@@ -123,6 +125,7 @@ tcsh-6.20.00p1      extended C-shell with many useful features
 tintin-2.01.3       client program for playing muds with advanced features
 tinyfugue-4.0s1p4   programmable MUD client, with macro support and more
 ttyrec-1.0.8p3      tty recorder
+universal-ctags-0.20180928-iconv multilanguage reimplementation of the Unix ctags utility
 unzip-6.0p11        extract, list & test files in a ZIP archive
 uucp-1.07p4         UUCP suite
 uucpd-1.0           UUCP inetd program
