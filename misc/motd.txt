@@ -36,7 +36,6 @@ to a UTF-8 locale before connecting via mosh
 
 motd        - Repeat this message
 
-Please contact ahriman with any issues or questions.
-Available on chat in #institute
-or at ahriman@tilde.institute
+Please contact ahriman or kneezle with any issues 
+or questions.
 
