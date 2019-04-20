@@ -51,6 +51,7 @@ nasm-2.13.03        general-purpose multi-platform x86 assembler
 ncdu-1.13           ncurses-based du(1)
 neomutt-20180716-gpgme-sasl tty-based e-mail client, Mutt with patches
 nethack-3.6.0p0-no_x11 dungeon explorin', hackin', game.  Piece of cake
+nn-6.7.3p3          menu-based Usenet newsreader
 node-8.12.0         V8 JavaScript for clients and servers
 ocaml-4.03.0p3      ML language with complete class-based objective system
 ocaml-cmdliner-0.9.8 declarative definition of command line interfaces
@@ -62,6 +63,7 @@ ocaml-re-1.4.1p0    regular expression library for OCaml
 omake-0.9.8.5pl3p7  build system designed for scalability and portability
 opam-1.2.2p2        OCaml source-based package manager
 ounit-2.0.0p2       unit test framework for OCaml
+p5-News-Newsrc-1.11p0 module for managing newsrc files
 password-store-1.7.3 simple password store
 pear-1.10.1p0       base classes for common PHP tasks
 php-7.0.32p1        server-side HTML-embedded scripting language
@@ -122,8 +124,10 @@ stow-2.2.2          manages software package installations with symlinks
 subversion-1.10.2   subversion revision control system
 tarsnap-1.0.39      client for the tarsnap.com online encrypted backup service
 tcsh-6.20.00p1      extended C-shell with many useful features
+tin-2.4.2           threaded NNTP- and spool-based UseNet newsreader
 tintin-2.01.3       client program for playing muds with advanced features
 tinyfugue-4.0s1p4   programmable MUD client, with macro support and more
+trn-4.0.77p2        threaded newsreader
 ttyrec-1.0.8p3      tty recorder
 universal-ctags-0.20180928-iconv multilanguage reimplementation of the Unix ctags utility
 unzip-6.0p11        extract, list & test files in a ZIP archive
