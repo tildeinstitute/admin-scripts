@@ -34,7 +34,8 @@ Latency issues? Use 'mosh' instead of 'ssh'
 Make sure your home PC's LANG and LC_CTYPE vars are set
 to a UTF-8 locale before connecting via mosh
 
-motd        - Repeat this message
+motd              - Repeat this message
+man 7 institute   - The tilde.institute man page
 
 Please contact ahriman or kneezle with any issues 
 or questions.
