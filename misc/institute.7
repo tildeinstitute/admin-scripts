@@ -1,0 +1,106 @@
+.Dd $Mdocdate$
+.Dt TILDE.INSTITUTE 7
+.Os
+.Sh TILDE.INSTITUTE
+.Nm tilde.institute
+.Nd a public unix system
+.Sh SYNOPSIS
+ssh username@tilde.institute
+.Sh DESCRIPTION
+
+Welcome to tilde.institute! This is an OpenBSD machine whose purpose is 
+to provide a space in the tildeverse for experimentation with and 
+education of the OpenBSD operating system. A variety of editors, shells, 
+and compilers are installed to allow for development in a native OpenBSD 
+environment. OpenBSD's httpd(8) is configured with slowcgi(8) as the 
+fastcgi provider and sqlite3 is available. This allows users to experiment 
+with web development using compiled CGI in C, aka the BCHS Stack. In 
+addition to php7.0 and mysql (mariadb) by request, this provides an 
+environment where the development of complex web apps is possible.
+
+.Sh NOTABLE SOFTWARE
+.Ss Compilers
+
+The following compilers are provided:
+
+.Bd -offset indent
+.Bl -compact
+.It
+clang 6.0.0 (C/C++)
+.It
+Rust 1.29.2
+.It
+Go 1.11
+.It
+ghc 8.2.2 (haskell)
+.It
+nasm 2.13.03 & yasm 1.3.0
+.El
+.Ed
+
+We also provide non-HTTP access to various interpreted languages as well:
+
+.Bd -offset indent
+.Bl -compact
+.It
+python (2.7 & 3.6)
+.It
+ruby 2.5
+.It
+perl 5.24
+.El
+.Ed
+
+.Ss Shells
+            
+Your interactive shell can be changed with the chsh command. The shells available:
+
+.Bd -offset indent
+.Bl -compact
+.It
+/bin/ksh (default)
+.It
+/bin/sh
+.It
+/bin/csh
+.It
+/usr/local/bin/bash
+.It
+/usr/local/bin/dash
+.It
+/usr/local/bin/zsh
+.It
+/usr/local/bin/fish
+.It
+/usr/local/bin/tcsh
+.It
+/usr/local/bin/elvish
+.El
+.Ed
+
+.Ss IRC
+            
+The IRC clients available by default are:
+
+.Bd -offset indent
+.Bl -compact
+.It
+weechat
+.It
+irssi
+.It
+ircII
+.El
+.Ed
+
+.Sh BUGS
+Contact the admins <admins@tilde.institute> or stop by in the tilde.institute chat on #institute.
+.Sh NOTES
+Mailing lists are now available for tilde.institute. Web archive and information available at
+.Ur
+https://lists.tildeverse.org/postorius/lists/institute.lists.tildeverse.org/
+.Ue 
+.Sh SEE ALSO
+httpd(8), slowcgi(8), ksh(1), bash(1), chsh(1)
+.Sh AUTHORS
+.An Knight <knight@tile.institute>
