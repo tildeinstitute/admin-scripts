@@ -83,5 +83,6 @@ case $1 in
 # announce the new user's creation on mastodon
 # then copy their ssh key to their home directory
     /admin/bin/toot.py "Welcome new user ~$1!"
+    </etc/passwd cut -d ":" -f1 > /var/www/htdocs/userlist
     echo "$3" | tee /home/$1/.ssh/authorized_keys
 esac
