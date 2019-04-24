@@ -68,10 +68,17 @@ case $1 in
 		}
 	}" > /etc/httpd/$1.conf
 
-# add the user's vhost config to
-# the main httpd config then gracefully
-# reload the httpd config
+# add the user's vhost config to the bridged vhost config, which
+# is loaded by /etc/httpd.conf. This is necessary because httpd(8)
+# does not support globbing on includes
 	echo "include \"/etc/httpd/$1.conf\"" >> /etc/httpd-vusers.conf
+
+# Sort and deduplicate entries in the bridged vhost config file
+# Duplicate entries cause weird behavior. Subdomains after the
+# duplicated entry won't resolve properly and instead resolve
+# to the main site
+    sort -u /etc/httpd-vusers.conf > /etc/httpd-vusers.conf.sorted
+    cp /etc/httpd-vusers.conf.sorted /etc/httpd-vusers.conf
     pkill -HUP httpd
 
 # send welcome email
