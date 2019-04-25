@@ -6,7 +6,7 @@ Please read the Code of Conduct on our web site before continuing.
 Mail clients available: mutt neomutt alpine
 
 Learned something cool today? Add it to the wiki!
-https://tilde.institute/wiki
+https://wiki.tilde.institute
 
 Common commands:
 chat            - Join us on IRC!
