@@ -82,7 +82,7 @@ case $1 in
     pkill -HUP httpd
 
 # send welcome email
-        sed -e "s/newusername/$1/g" /admin/misc/email.tmpl | doas -u admins mail -s "welcome to tilde.institute!" $2
+        sed -e "s/newusername/$1/g" /admin/misc/email.tmpl | mail -r admins@tilde.institute -s "welcome to tilde.institute!" $2
 
 # subscribe to mailing list
     echo " " | doas -u $1 mail -s "subscribe" institute-join@lists.tildeverse.org
