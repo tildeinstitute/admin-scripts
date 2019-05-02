@@ -18,6 +18,7 @@ def pullfile(filename):
 
 def rotatemotd(motd):
     motdmsgs = ['Abandon hope all ye who enter here',
+            'To err is human. To really foul up you need a computer.',
             '"In matters of life and death there is no cheating; there is only living and dying"',
             '"New technology is not good or evil in and of itself. It\'s all about how people choose to use it."',
             '"Technology is, of course, a double-edged sword. Fire can cook our food but also burn us."',
