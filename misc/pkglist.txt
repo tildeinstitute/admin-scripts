@@ -5,6 +5,7 @@ autoconf-2.69p2     automatically configure source code on many Un*x platforms
 automake-1.16.1     GNU Standards-compliant Makefile generator
 autossh-1.4f        SSH monitoring
 bash-4.4.23         GNU Bourne Again Shell
+clisp-2.49p2        ANSI Common Lisp implementation
 cmake-3.10.2p0v0    portable build system
 colorls-6.3         ls(1) that can use color to display file attributes
 coreutils-8.30      file, shell and text manipulation utilities
@@ -12,24 +13,28 @@ cowsay-3.03p0       speaking ascii cow
 dash-0.5.10.2       Debian Almquist shell, POSIX-compliant
 dovecot-2.2.36p0    compact IMAP/POP3 server
 dungeon-2.7sp0      text adventure game
+elixir-1.7.3        functional language for building scalable applications
 elvish-0.12         cross-platform, friendly, and expressive shell
 emacs-26.1p2-no_x11 GNU editor: extensible, customizable, self-documenting
 figlet-2.2.5        generates ASCII banner art
 fish-2.7.1p0        friendly interactive shell
-gcc-4.9.4p12        GNU compiler collection: core C compiler
+gcc-6.4.0p0         GNU compiler collection: core C compiler
 ghc-8.2.2p2         compiler for the functional language Haskell
 git-2.19.1          GIT - Tree History Storage Tool
 gmake-4.2.1         GNU make
 gnupg-2.2.10        GNU privacy guard - a free PGP replacement
+gnutls-3.5.19       GNU Transport Layer Security library
 go-1.11             Go programming language
 gophernicus-2.5p0   modern gopher server
 gtar-1.30p0         GNU version of the traditional tape archiver
+guile-1.8.8p5       GNU's Ubiquitous Intelligent Language for Extension
 hs-shellcheck-0.4.7p1 ShellCheck library
 hugo-0.49           fast and flexible static site generator
 inotify-tools-3.14pl0 programs providing a simple interface to inotify
 intel-firmware-20180807p0v0 microcode update binaries for Intel CPUs
 ircII-20170704p1    Internet Relay Chat client
 irssi-1.1.1p0       modular IRC client with many features (ipv6,socks,proxy)
+jed-0.99.19p1-no_x11 text editor
 joe-4.6             Joe's Own Editor
 kcgi-0.10.7         minimal CGI library for web applications
 kona-3.2.0.20180522 open source implementation of the K programming language
@@ -39,6 +44,7 @@ libident-0.32p1     library to interface the ident protocol server (rfc1413)
 libslang-2.2.4p4    stack-based interpreter for terminal applications
 links-1.03p0        text browser, displays while downloading
 lowdown-0.4.1       simple markdown translator
+lua-5.3.5           powerful, light-weight programming language (version 5.3.5)
 lynx-2.8.9rel1      text web browser
 mariadb-server-10.0.36p0v1 multithreaded SQL database (server)
 mercurial-4.5.3p1   fast, lightweight source control management
@@ -62,7 +68,16 @@ ocaml-parmap-1.0rc7p2 OCaml parallel map primitive for multicores
 ocaml-re-1.4.1p0    regular expression library for OCaml
 omake-0.9.8.5pl3p7  build system designed for scalability and portability
 opam-1.2.2p2        OCaml source-based package manager
+openssl-1.0.2p      TLS/SSL library and tools
 ounit-2.0.0p2       unit test framework for OCaml
+p5-GD-2.56p0        module to interface with the GD graphics library
+p5-MIME-Base32-1.303 Base32 encoder/decoder
+p5-MIME-Charset-1.012.2 charset Informations for MIME
+p5-MIME-EncWords-1.014.3 perl module to deal with RFC 2047 encoded words
+p5-MIME-Lite-3.030  low-calorie MIME generator
+p5-MIME-Lite-HTML-1.24 transform a HTML page in a MIME-Lite mail
+p5-MIME-Types-2.13  perl module to manage MIME types
+p5-MIME-tools-5.509 modules for parsing (and creating) MIME entities
 p5-News-Newsrc-1.11p0 module for managing newsrc files
 password-store-1.7.3 simple password store
 pear-1.10.1p0       base classes for common PHP tasks
@@ -110,17 +125,22 @@ py3-click-plugins-1.0.2 register CLI commands via setuptools entry-points
 py3-click-threading-0.4.3 multithreading in Python click
 py3-pip-9.0.3       Python easy_install replacement
 quirks-3.16         exceptions to pkg_add rules
+racket-minimal-7.0p3 multi-paradigm programming language
 ranger-1.9.2        minimalistic console file manager
+ripgrep-0.8.1p2     line oriented search tool using Rust's regex library 
 rlwrap-0.43         generic readline wrapper for various programs
 rspamd-1.7.9p0      event-driven spam filtering system in C/Lua
 ruby-2.5.1          object oriented script language with threads
 rust-1.29.2         compiler for Rust Language
+s-nail-14.9.11      SysV mail/BSD Mail/POSIX mailx: send and receive mail
+scala-2.12.3        general purpose multi-paradigm programming language
 screen-4.0.3p6      multi-screen window manager
 shellcheck-0.4.7p0  shell script analysis tool
 sic-1.2p1           simple irc client
 sl-5.02             Steam Locomotive
 slrn-1.0.2p1        SLang-based newsreader
 stow-2.2.2          manages software package installations with symlinks
+stunnel-5.44p1      SSL encryption wrapper for standard network daemons
 subversion-1.10.2   subversion revision control system
 tarsnap-1.0.39      client for the tarsnap.com online encrypted backup service
 tcsh-6.20.00p1      extended C-shell with many useful features
@@ -134,6 +154,7 @@ unzip-6.0p11        extract, list & test files in a ZIP archive
 uucp-1.07p4         UUCP suite
 uucpd-1.0           UUCP inetd program
 vim-8.1.0438-no_x11 vi clone, many additional features
+vnu-18.8.29         HTML5 validator
 weechat-2.2         fast, light and extensible chat client
 weechat-lua-2.2     Lua bindings for weechat
 weechat-python-2.2  Python bindings for weechat
