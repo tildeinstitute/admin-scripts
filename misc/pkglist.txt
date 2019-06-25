@@ -45,6 +45,7 @@ libslang-2.2.4p4    stack-based interpreter for terminal applications
 links-1.03p0        text browser, displays while downloading
 lowdown-0.4.1       simple markdown translator
 lua-5.3.5           powerful, light-weight programming language (version 5.3.5)
+lumail-0.26p5       console-based e-mail client with Lua scripting support
 lynx-2.8.9rel1      text web browser
 mariadb-server-10.0.36p0v1 multithreaded SQL database (server)
 mercurial-4.5.3p1   fast, lightweight source control management
@@ -79,6 +80,8 @@ p5-MIME-Lite-HTML-1.24 transform a HTML page in a MIME-Lite mail
 p5-MIME-Types-2.13  perl module to manage MIME types
 p5-MIME-tools-5.509 modules for parsing (and creating) MIME entities
 p5-News-Newsrc-1.11p0 module for managing newsrc files
+p7zip-16.02p4       file archiver with high compression ratio
+p7zip-rar-16.02p1   rar modules for p7zip
 password-store-1.7.3 simple password store
 pear-1.10.1p0       base classes for common PHP tasks
 php-7.0.32p1        server-side HTML-embedded scripting language
@@ -150,6 +153,7 @@ tinyfugue-4.0s1p4   programmable MUD client, with macro support and more
 trn-4.0.77p2        threaded newsreader
 ttyrec-1.0.8p3      tty recorder
 universal-ctags-0.20180928-iconv multilanguage reimplementation of the Unix ctags utility
+unrar-5.60v1        extract, list, and test RAR archives
 unzip-6.0p11        extract, list & test files in a ZIP archive
 uucp-1.07p4         UUCP suite
 uucpd-1.0           UUCP inetd program
