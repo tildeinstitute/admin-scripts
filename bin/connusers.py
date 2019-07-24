@@ -15,9 +15,15 @@ def checkconns():
 
     connusers = list(set(subprocess.check_output("/usr/local/bin/showwhoison | sed -n '1!p'; exit 0", stderr=subprocess.STDOUT,shell=True).decode().split("\n")))
     conntable.write("<ul>\n")
-    for conn in connusers:
-        if conn != "" and conn != "root":
-            conntable.write("<li><a href=\"https://"+ conn +".tilde.institute\">"+ conn +"</a></li>\n")
+
+    seen = set()
+    for conns in connusers:
+        split = conns.split(' ')
+        for conn in split:
+            if conn != "" and conn != " " and conn != "root" and conn not in seen:
+                seen.add(conn)
+                conntable.write("<li><a href=\"https://"+ conn +".tilde.institute\">"+ conn +"</a></li>\n")
+
 
     conntable.write("</ul>\n")
 
