@@ -21,6 +21,10 @@ def checkconns():
         split = conns.split(' ')
         for conn in split:
             if conn != "" and conn != " " and conn != "root" and conn not in seen:
+                # this needs to be fixed. truncates long usernames
+                # resulting in broken links to their pages. thanks, ps(1)
+                if conn == "sarmonsi":
+                    conn = "sarmonsiill"
                 seen.add(conn)
                 conntable.write("<li><a href=\"https://"+ conn +".tilde.institute\">"+ conn +"</a></li>\n")
 

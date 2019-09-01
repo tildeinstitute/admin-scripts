@@ -24,13 +24,12 @@ Tildeverse Dungeon Crawl Stone Soup server!
 MUD Clients: tintin++ tinyfugue
 
 Latency issues? Use 'mosh' instead of 'ssh'
-Make sure your home PC's LANG and LC_CTYPE vars are set
-to a UTF-8 locale before connecting via mosh
 
 motd              - Repeat this message
 man 7 institute   - The tilde.institute man page
 
 Mail clients available: mutt neomutt alpine lumail
+Gopher clients: lynx gopher bombadillo vf1
 
 Start a conversation on the mailing list!
     institute@lists.tildeverse.org
