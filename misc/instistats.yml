@@ -1,0 +1,7 @@
+# Config file for instistats
+name: "tilde.institute"
+url: "https://tilde.institute"
+signup_url: "https://tilde.institute/signup"
+want_users: true
+admin_email: "admins@tilde.institute"
+description: "A place in the tildeverse for people to explore and develop software for the OpenBSD operating system."
