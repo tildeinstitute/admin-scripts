@@ -12,3 +12,5 @@ Everything was written by me, except for the following, which were *not* written
   * `bin/newmail.sh` (same as above)
   * `bin/toot.py` (written by Ben Harris of [tilde.team](https://tilde.team))
 
+
+The source code for `instistats` is at [`github.com/gbmor/instistats`](https://github.com/gbmor/instistats).
