@@ -15,7 +15,6 @@ tron            - Play with other ~institute members!
 nethack         - The classic roguelike!
 angband         - Roguelike set in Middle-Earth
 zork            - The classic adventure game
-asciifarm       - Multi-user persistent social-farming game
 
 Tildeverse Dungeon Crawl Stone Soup server!
     Webtiles: https://crawl.tildeverse.org
@@ -33,6 +32,9 @@ Gopher clients: lynx gopher bombadillo vf1
 
 Start a conversation on the mailing list!
     institute@lists.tildeverse.org
+
+New gitbucket instance available:
+    https://git.tilde.institute
 
 Please contact ahriman and kneezle with any questions:
     admins@tilde.institute
