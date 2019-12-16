@@ -1,0 +1,97 @@
+#!/usr/local/bin/python3
+import os
+import argparse
+import http.client
+
+aboutme = """
+# New User Monitor
+# Created for tilde.institute by Kneezle
+# BSD Rocks!
+
+# assuming we're running once a day.
+# this replaces the 1.0 version that ran in a constant loop
+"""
+
+#put the tokens here for each admin to be alerted
+gotifytokens = []
+gotifytokens.append("your_gotify_token")
+
+defaulttitle = "Alert: New Users"
+
+defaultnewuserpath = "/path/to/new/user/dump/file"
+
+runcmdtemplate = """curl -X POST "https://gotify/message?token={}" -F "title=Alert: New Users" -F "message={}" -F "priority=5" """
+
+ap = argparse.ArgumentParser()
+ap.add_argument('--newuserpath', default=defaultnewuserpath,
+                    help='sets the path for the new user txt file')
+
+ap.add_argument('--title', default=defaulttitle,
+                    help='sets the title')
+
+ap.add_argument('--usecurl', default=False,
+                    help='use curl or build in sockets')
+
+ap.add_argument("-a", "--about", dest='about', action='store_true', help="about me")
+
+args = vars(ap.parse_args())
+
+if args['about']:
+    print(aboutme)
+    exit()
+
+title = args['title']
+newuserpath = args['newuserpath']
+usecurl = args['usecurl']
+
+boilerplate = """New pending user found!
+
+Username: {}
+Email: {}
+SSH Key {}
+
+"""
+push_notification = ""
+
+num_linesp = 0
+
+num_lines = sum(1 for line in open(args['newuserpath']))
+print(" I found: " + str(num_lines))
+
+numnonblanklines = 0
+if num_lines > 0:
+    with open(args['newuserpath']) as fp:
+        line = fp.readline()
+        cnt = 1
+        while line:
+            if line.strip() != "": #not a blank line
+                numnonblanklines = numnonblanklines + 1
+                print("Line {}: {}".format(cnt, line.strip()))
+                x = line.split(" ")
+                sshkey = ""
+                itemno = 0
+                for item in x:
+                    if itemno > 1:
+                        sshkey = sshkey + " " + item
+                    itemno = itemno + 1
+                sshkey = sshkey.replace('"', "")
+
+                push_notification = push_notification + boilerplate.format(x[0], x[1], sshkey)
+            cnt = cnt + 1
+            line = fp.readline()
+
+    if numnonblanklines > 0:
+        for key in gotifytokens:
+            if not usecurl:
+                conn = http.client.HTTPSConnection("gotify.tildeverse.org")
+                payload = """title={}&message={}&priority=5""".format(title, push_notification)
+                headers = {'content-type': "application/x-www-form-urlencoded"}
+                conn.request("POST", "/message?token={}".format(key), payload, headers)
+                res = conn.getresponse()
+                data = res.read()
+                print(data.decode("utf-8"))
+            else:
+                torun = runcmdtemplate.format(key, push_notification)
+                os.system(torun)
+    else:
+        print("only blank lines")
