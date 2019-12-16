@@ -13,5 +13,6 @@ Everything was written by me, except for the following, which were *not* written
   * `bin/newuseralert.py` (same as above)
   * `bin/toot.py` (written by Ben Harris of [tilde.team](https://tilde.team))
 
+`bin/makeuser` is originally based on [tilde.team](https://tilde.team)'s, but has been extended and modified so much it bears very little resemblance to the original.
 
 The source code for `instistats` is at [`github.com/gbmor/instistats`](https://github.com/gbmor/instistats).
