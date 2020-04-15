@@ -4,17 +4,21 @@ Please read the Code of Conduct on our web site before continuing.
 Learned something cool today? Add it to the wiki!
 https://wiki.tilde.institute
 
-Common commands:
-chat            - Join us on IRC!
-tmux / screen   - Terminal multiplexer / session management
+:: Common Commands ::
+chat              - Join us on IRC!
+tmux / screen     - Terminal multiplexer / session management
+clinte            - Linear notes board
+motd              - Repeat this message
+man 7 institute   - The tilde.institute man page
 
-Games:
-holodeck        - Collaborative world-building!
-botany          - Plant a little garden!
-tron            - Play with other ~institute members!
-nethack         - The classic roguelike!
-angband         - Roguelike set in Middle-Earth
-zork            - The classic adventure game
+:: Games ::
+angband       - Roguelike set in Middle-Earth
+botany        - Plant a little garden!
+dcss          - Dungeon Crawl Stone Soup (crawl.tildeverse.org)
+holodeck      - Collaborative world-building!
+nethack       - The classic roguelike!
+tron          - Play with other ~institute members!
+zork          - The classic adventure game
 
 Tildeverse Dungeon Crawl Stone Soup server!
     Webtiles: https://crawl.tildeverse.org
@@ -22,19 +26,13 @@ Tildeverse Dungeon Crawl Stone Soup server!
 
 MUD Clients: tintin++ tinyfugue
 
-Latency issues? Use 'mosh' instead of 'ssh'
-
-motd              - Repeat this message
-man 7 institute   - The tilde.institute man page
-
 Mail clients available: mutt neomutt alpine lumail
 Gopher clients: lynx gopher bombadillo vf1
 
 Start a conversation on the mailing list!
     institute@lists.tildeverse.org
 
-New gitbucket instance available:
-    https://git.tilde.institute
+Latency issues? Use 'mosh' instead of 'ssh'
 
 Please contact ahriman and kneezle with any questions:
     admins@tilde.institute
