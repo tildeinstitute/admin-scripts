@@ -22,6 +22,8 @@ if __name__ == "__main__":
     regusers = get_regusers("/home")
     usertable.write("<ul>\n")
     for user in sorted(regusers):
-        if user != "lost+found" and user != ".git" and user != "uucp" and user != "admins":
+        is_system = user.startswith("_")
+        is_hidden_dir = user.startswith(".")
+        if user != "lost+found" and user != "uucp" and user != "admins" and is_system == False and is_hidden_dir == False:
             usertable.write("<li><a href=\"https://"+ user +".tilde.institute\">"+ user +"</a></li>\n")
     usertable.write("</ul>\n")
