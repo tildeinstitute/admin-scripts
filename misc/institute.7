@@ -13,48 +13,74 @@ to provide a space in the tildeverse for experimentation with and
 education of the OpenBSD operating system. A variety of editors, shells, 
 and compilers are installed to allow for development in a native OpenBSD 
 environment. OpenBSD's httpd(8) is configured with slowcgi(8) as the 
-fastcgi provider and sqlite3 is available. This allows users to experiment 
-with web development using compiled CGI in C, aka the BCHS Stack. In 
-addition to php7.0 and mysql (mariadb) by request, this provides an 
-environment where the development of complex web apps is possible.
+fastcgi provider and sqlite3 is available.
 
 .Sh NOTABLE SOFTWARE
 .Ss Compilers
 
-The following compilers are provided:
-
+The following compilers and interpreters are provided:
 .Bd -offset indent
 .Bl -compact
 .It
-clang 6.0.0 (C/C++)
+brainf*ck 2.7.1
 .It
-Rust 1.29.2
+clang 8.0.1
 .It
-Go 1.11
+clisp 2.49
 .It
-ghc 8.2.2 (haskell)
+clojure 1.10.0.4
 .It
-nasm 2.13.03 & yasm 1.3.0
-.El
-.Ed
-
-We also provide non-HTTP access to various interpreted languages as well:
-
-.Bd -offset indent
-.Bl -compact
+elixir 1.9.1
 .It
-python (2.7 & 3.6)
+erlang 21.2
 .It
-ruby 2.5
+gcc 8.3.0 (includes Objective-C support)
 .It
-perl 5.24
+gforth 0.7.3
+.It
+ghc 8.6.4
+.It
+gnat 8.3.0
+.It
+go 1.13.1
+.It
+guile 1.8.8
+.It
+jdk 11.0.5.8.1 (environment setup required)
+.It
+lua 5.3.5 and 5.1.5
+.It
+mono 5.20.1.34
+.It
+nasm 2.14.02
+.It
+nim 1.0.4
+.It
+node.js 10.16.3
+.It
+perl 5.28.2
+.It
+php 7.3.16
+.It
+python (2.7.16 & 3.7.4)
+.It
+racket 7.4
+.It
+rakudo 2018.12
+.It
+ruby 2.5.5 (and 2.6.6)
+.It
+rust 1.38
+.It
+scala 2.12.3
+.It
+yasm 1.3.0
 .El
 .Ed
 
 .Ss Shells
             
 Your interactive shell can be changed with the chsh command. The shells available:
-
 .Bd -offset indent
 .Bl -compact
 .It
@@ -81,7 +107,6 @@ Your interactive shell can be changed with the chsh command. The shells availabl
 .Ss IRC
             
 The IRC clients available by default are:
-
 .Bd -offset indent
 .Bl -compact
 .It
@@ -94,7 +119,7 @@ ircII
 .Ed
 
 .Sh BUGS
-Contact the admins <admins@tilde.institute> or stop by in the tilde.institute chat on #institute.
+Contact the admins <admins@tilde.institute> or stop by #institute on irc.
 .Sh NOTES
 Mailing lists are now available for tilde.institute. Web archive and information available at
 .Ur
