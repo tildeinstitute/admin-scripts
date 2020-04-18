@@ -6,10 +6,11 @@ https://wiki.tilde.institute
 
 :: Common Commands ::
 chat              - Join us on IRC!
-tmux / screen     - Terminal multiplexer / session management
 clinte            - Linear notes board
-motd              - Repeat this message
 man 7 institute   - The tilde.institute man page
+motd              - Repeat this message
+rg                - ripgrep. Fast, Recursive search for a regex pattern.
+tmux / screen     - Terminal multiplexer / session management
 
 :: Games ::
 angband       - Roguelike set in Middle-Earth
