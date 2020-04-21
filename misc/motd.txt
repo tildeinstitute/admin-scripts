@@ -14,6 +14,7 @@ tmux / screen     - Terminal multiplexer / session management
 
 :: Games ::
 angband       - Roguelike set in Middle-Earth
+asciifarm     - Multiplayer farming/fighting
 botany        - Plant a little garden!
 dcss          - Dungeon Crawl Stone Soup (crawl.tildeverse.org)
 holodeck      - Collaborative world-building!
