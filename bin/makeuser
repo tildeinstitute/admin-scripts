@@ -43,7 +43,12 @@ case $1 in
 # make the public_html directory for the users
 	mkdir /var/www/users/$1
 	chown $1:tilde /var/www/users/$1
-	ln -s /var/www/users/$1 /home/$1/public_html
+    doas -u $1 ln -s /var/www/users/$1 /home/$1/public_html
+
+# make the public_repos directory
+    mkdir /var/www/cgit_repos/$1
+    chown $1:tilde /var/www/cgit_repos/$1
+    doas -u $1 ln -s /var/www/cgit_repos/$1 /home/$1/public_repos
 
 # set up the httpd configuration for
 # individual users. this config forces tls
