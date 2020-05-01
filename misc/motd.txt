@@ -19,6 +19,7 @@ botany        - Plant a little garden!
 dcss          - Dungeon Crawl Stone Soup (crawl.tildeverse.org)
 holodeck      - Collaborative world-building!
 nethack       - The classic roguelike!
+starlanes     - Space stocks
 tron          - Play with other ~institute members!
 zork          - The classic adventure game
 
