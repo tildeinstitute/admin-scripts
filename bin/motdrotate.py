@@ -7,8 +7,7 @@ import random
 ## Uses a skeleton motd plus a random quote ##
 ## to produce a motd with a nifty quote.    ##
 ##------------------------------------------##
-## Created by ahriman - ben@gbmor.dev       ##
-## --> BSD 3-clause license applies         ##
+## <gbmor> ben@gbmor.dev                    ##
 ##############################################
 
 def pullfile(filename):

@@ -1,4 +1,7 @@
 #!/usr/local/bin/python3
+#
+# kneezle@tilde.institute
+
 import os
 import argparse
 import http.client

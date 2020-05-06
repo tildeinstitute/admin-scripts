@@ -2,7 +2,7 @@
 # ---------------------------------------------------------------------------
 # makeuser - tilde.institute new user creation
 # Usage: makeuser [-h|--help] <username> <email> "<pubkey>"
-# ben@gbmor.dev
+# <gbmor> ben@gbmor.dev
 # ---------------------------------------------------------------------------
 
 PROGNAME=${0##*/}

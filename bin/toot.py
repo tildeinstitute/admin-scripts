@@ -1,9 +1,5 @@
 #!/usr/local/bin/python2
 
-# Called by bin/makeuser to send a 'toot' to the
-# tilde.institute mastodon account at
-# https://tilde.zone/@tildeinstitute
-
 import json
 import os
 import sys

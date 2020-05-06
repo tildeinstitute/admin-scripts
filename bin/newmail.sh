@@ -1,6 +1,7 @@
 #!/usr/local/bin/bash
 
 # Notifies users of newly received mail
+# kneezle@tilde.institute
 
 NewMail(){
     NEWMAIL=$(mailx &)
