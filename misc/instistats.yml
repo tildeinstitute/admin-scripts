@@ -4,4 +4,4 @@ url: "https://tilde.institute"
 signup_url: "https://tilde.institute/signup"
 want_users: true
 admin_email: "admins@tilde.institute"
-description: "A place in the tildeverse for people to explore and develop software for the OpenBSD operating system."
+description: "A public-access machine where users can explore the OpenBSD operating system."
