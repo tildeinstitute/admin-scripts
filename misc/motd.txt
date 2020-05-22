@@ -16,9 +16,10 @@ tmux / screen     - Terminal multiplexer / session management
 angband       - Roguelike set in Middle-Earth
 asciifarm     - Multiplayer farming/fighting
 botany        - Plant a little garden!
+cataclysm     - Cataclysm: DDA is a post-apocalyptic roguelike
 dcss          - Dungeon Crawl Stone Soup (crawl.tildeverse.org)
 holodeck      - Collaborative world-building!
-nethack       - The classic roguelike!
+nethack       - The classic fantasy roguelike!
 starlanes     - Space stocks
 tron          - Play with other ~institute members!
 zork          - The classic adventure game
