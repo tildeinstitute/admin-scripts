@@ -1,8 +1,10 @@
 GeoIP-1.6.12p2      find the country where IP address/hostname originates from
 acme-client-0.1.16  privilege-separated letsencrypt client
 acme-tiny-4.0.4p0v0 small 3rd-party letsencrypt client
+aggregate-1.6p1     optimise a list of route prefixes
 alpine-2.21p3       UW e-mail client
 angband-4.1.3-no_x11 rogue-like game
+apl-1.7p1           interpreter for the programming language APL
 asciidoc-8.6.9p1    text document format for writing documents and man pages
 aspell-0.60.6.1p10  spell checker designed to eventually replace Ispell
 autoconf-2.69p2     automatically configure source code on many Un*x platforms
@@ -13,8 +15,12 @@ bison-3.3.2p1       GNU parser generator
 brainfuck-2.7.1     Brainfuck interpreter written in C
 bzr-2.4.2p1         distributed version control system by Canonical
 cairo-1.16.0        vector graphics library
+cataclysm-dda-0.Dp0v0-no_x11 rogue-like zombie survival game
 cbindgen-0.9.1p0    C bindings generator from rust code
 certbot-1.3.0       client for certificate authorities using ACME protocols
+chibi-scheme-0.8.0p0 interpreter of the R7RS Scheme programming language
+chicken-5.1.0       practical and portable Scheme system
+cim-5.1p0           GNU Simula compiler
 clisp-2.49p4        ANSI Common Lisp implementation
 clojure-1.10.0.411p1 Lisp-1 dialect for the Java Virtual Machine
 cmake-3.15.3v0      portable build system
@@ -38,12 +44,16 @@ exa-0.9.0           ls alternative written in Rust
 figlet-2.2.5        generates ASCII banner art
 fish-3.0.2p1        friendly interactive shell
 fossil-2.10v0       simple distributed software configuration management
+fpc-3.0.4p0         open source compiler for Pascal/Object Pascal
+fping-4.2           quickly ping N hosts w/o flooding the network
 g++-8.3.0p4         GNU compiler collection: C++ compiler
 g95-8.3.0p4         GNU compiler collection: f95 compiler
+gambit-4.9.3p0      complete, efficient and reliable implementation of Scheme
 gcc-8.3.0p4         GNU compiler collection: core C compiler
 gcc-libs-8.3.0p4    GNU compiler collection: support libs
 gdbm-1.18.1p0       GNU dbm
 gdiff-3.7p0         GNU versions of the diff utilities
+gerbil-0.15.1       dialect of Scheme designed for systems programming
 gettext-runtime-0.20.1p0 GNU gettext runtime libraries and programs
 gettext-tools-0.20.1p2 GNU gettext development and translation tools
 gforth-0.7.3p3      ANSI/200x Forth interpreter and compiler
@@ -53,6 +63,7 @@ git-2.24.2          distributed version control system
 glib2-2.60.7p0      general-purpose utility library
 gmake-4.2.1p4       GNU make
 gnat-8.3.0p4        GNU compiler collection: Ada compiler
+gnucobol-2.2p1      COBOL compiler, formerly known as OpenCOBOL
 gnugetopt-1.1.6p2   GNU getopt(1) utility
 gnupg-1.4.23p3      GNU privacy guard - a free PGP replacement
 gnupg-2.2.12p0      GNU privacy guard - a free PGP replacement
@@ -65,9 +76,14 @@ goaccess-1.3p2      realtime console web log analyzer
 gobjc-8.3.0p4       GNU compiler collection: obj C compiler
 gopher-3.0.11p3     distributed document delivery client
 got-0.17            game of trees version control system
+gpc-20070904p3      GNU Pascal compiler
 gpgme-1.13.1p0      GnuPG Made Easy
+gprolog-1.4.5p3     Prolog compiler
+groff-1.22.4p0      GNU troff typesetter
 gtar-1.32p1         GNU version of the traditional tape archiver
 guile-1.8.8p8       GNU's Ubiquitous Intelligent Language for Extension
+guile2-2.2.6p0      GNU's Ubiquitous Intelligent Language for Extension
+highlight-3.52      convert source code to markup formats
 hs-HUnit-1.3.1.1p2  unit testing framework for Haskell
 hs-QuickCheck-2.8.2p2 automatic testing of Haskell programs
 hs-ansi-terminal-0.8.2 ANSI terminal package for Haskell
@@ -97,6 +113,8 @@ inotify-tools-3.14pl0 programs providing a simple interface to inotify
 intel-firmware-20191115v0 microcode update binaries for Intel CPUs
 ircII-20190117      Internet Relay Chat client
 irssi-1.2.2         modular IRC client with many features
+irssi-icb-0.17p1    ICB plugin for irssi
+janet-1.3.1         functional and imperative programming language
 jdk-11.0.5.8.1v0    OpenJDK Software Development Kit v11.0.5+8-1
 jed-0.99.19p2-no_x11 text editor
 joe-4.6             Joe's Own Editor
@@ -119,6 +137,7 @@ libtool-2.4.2p0     generic shared library support script
 libxslt-1.1.33      XSLT C Library for GNOME
 links-1.03p0        text browser, displays while downloading
 llvm-8.0.1p0        modular, fast C/C++/ObjC compiler, static analyzer and tools
+lockfile-3.22p0     semaphore-file tool for shell scripting
 lowdown-0.4.3       simple markdown translator
 lua-5.3.5           powerful, light-weight programming language (version 5.3.5)
 lumail-0.26p6       console-based e-mail client with Lua scripting support
@@ -132,10 +151,12 @@ most-5.1.0          browse or page through a text file
 mutt-1.12.2v3-gpgme-sasl tty-based e-mail client
 nano-4.4            simple editor, inspired by Pico
 nasm-2.14.02p1      general-purpose multi-platform x86 assembler
+nbfc-0.1p1          new brainfuck compiler
 ncdu-1.14.1         ncurses-based du(1)
 neomutt-20180716p1-gpgme-sasl tty-based e-mail client, Mutt with patches
 neovim-0.3.8        continuation and extension of Vim
 nethack-3.6.2-no_x11 dungeon explorin', hackin', game.  Piece of cake
+newlisp-10.7.1p2    newLISP is a LISP like, general purpose scripting language
 ninja-1.9.0         small build system with a focus on speed
 nn-6.7.3p5          menu-based Usenet newsreader
 node-10.16.3        V8 JavaScript for clients and servers
@@ -157,6 +178,7 @@ p5-MIME-Lite-HTML-1.24 transform a HTML page in a MIME-Lite mail
 p5-MIME-Types-2.17  perl module to manage MIME types
 p5-MIME-tools-5.509 modules for parsing (and creating) MIME entities
 p5-News-Newsrc-1.11p0 module for managing newsrc files
+p5-local-lib-2.000024 create and use a local lib/ for perl modules with PERL5LIB
 p7zip-16.02p6       file archiver with high compression ratio
 p7zip-rar-16.02p3   rar modules for p7zip
 password-store-1.7.3 simple password store
@@ -203,13 +225,15 @@ py3-click-6.7       command line library for Python
 py3-click-log-0.3.2 logging integration for Python click
 py3-click-plugins-1.0.4 register CLI commands via setuptools entry-points
 py3-click-threading-0.4.3 multithreading in Python click
+py3-cython-0.29.13  optimising static compiler for Python and Cython
 py3-neovim-0.3.2    Python plugin support for Neovim
 py3-pip-19.1.1      tool for installing Python packages
 py3-psutil-5.4.3p0  library to retrieve system information and utilisation
+pypy-7.1.1p0        fast implementation of the Python language
 python-2.7.16p1     interpreted object-oriented programming language
 python-3.6.9        interpreted object-oriented programming language
 python-3.7.4        interpreted object-oriented programming language
-quirks-3.185        exceptions to pkg_add rules
+quirks-3.187        exceptions to pkg_add rules
 racket-minimal-7.4  multi-paradigm programming language
 rakudo-2018.12      Rakudo Perl 6 compiler
 ranger-1.9.2p0      minimalistic console file manager
@@ -222,18 +246,22 @@ rust-doc-1.33.0     html documentation for rustc
 rust-gdb-1.38.0     Rust debugger through gdb
 rust-rustfmt-1.38.0 Rust code formatter
 s-nail-14.9.15      SysV mail/BSD Mail/POSIX mailx: send and receive mail
+sbcl-1.5.5-threads  compiler and runtime system for ANSI Common Lisp
 scala-2.12.9        general purpose multi-paradigm programming language
-scheme48-1.9.2      Scheme Underground's implementation of R5RS
 screen-4.8.0        multi-screen window manager
 shellcheck-0.4.7p1  shell script analysis tool
 sic-1.2p1           simple irc client
 sl-5.02p1           Steam Locomotive
 slrn-1.0.2p2        SLang-based newsreader
 sqlite3-3.29.0      embedded SQL implementation
+squeak-image-3.10.2.7179p0 smalltalk system, basic runtime image
+squeak-sources-3.9  smalltalk system, smalltalk sources
+squeak-vm-3.10.1p9  smalltalk system, vm
 starlanes-1.2.2     classic space-age stock trading game
 stow-2.3.1          manages software package installations with symlinks
 stunnel-5.44p2      SSL encryption wrapper for standard network daemons
 subversion-1.12.2   subversion revision control system
+swi-prolog-7.6.0p5  Prolog for the real world
 tarsnap-1.0.39      client for the tarsnap.com online encrypted backup service
 tarsnapper-0.4.0p0  tarsnap wrapper which automatically expires backups
 tcsh-6.20.00p1      extended C-shell with many useful features
@@ -254,7 +282,6 @@ vim-8.1.2061-no_x11-perl-python3-ruby vi clone, many additional features
 vnu-18.11.5p1       HTML5 validator
 wget-1.20.3p1       retrieve files from the web via HTTP, HTTPS and FTP
 yasm-1.3.0p1        complete rewrite of the NASM assembler
-youtube-dl-2019.03.01 CLI program to download videos from YouTube and other sites
 ytalk-3.1.1p4-no_x11 enhanced talk that allows for multiple parties
 zangband-2.6.2p6-no_x11 Zangband (Zelazny Angband) with color, X11 support
 zsh-5.7.1           Z shell, Bourne shell-compatible
