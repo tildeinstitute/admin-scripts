@@ -28,12 +28,10 @@ Tildeverse Dungeon Crawl Stone Soup server!
     Webtiles: https://crawl.tildeverse.org
     ASCII: Run the command 'dcss'
 
-MUD Clients:
-    tintin++ (tt++)
-    tinyfugue (tf)
-
-Mail clients available: mutt neomutt alpine lumail
+MUD clients:    tintin++ (tt++), tinyfugue (tf)
+Mail clients:   mutt neomutt alpine lumail
 Gopher clients: lynx gopher bombadillo vf1
+IRC clients:    weechat (chat), irssi, swirc, catgirl, ircII
 
 Start a conversation on the mailing list!
     institute@lists.tildeverse.org
