@@ -6,7 +6,7 @@ https://wiki.tilde.institute
 
 :: Common Commands ::
 chat              - Join us on IRC!
-clinte            - Linear notes board
+clinte            - Linear notes board (man clinte)
 man 7 institute   - The tilde.institute man page
 motd              - Repeat this message
 rg                - ripgrep. Fast, Recursive search for a regex pattern.
