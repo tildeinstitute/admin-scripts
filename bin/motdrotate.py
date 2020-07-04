@@ -25,7 +25,8 @@ def rotatemotd(motd):
             '"If we lose love and self-respect for each other, this is how we finally die."',
             '"We live in a society exquisitely dependent on science and technology, in which hardly anyone knows anything about science and technology."',
             '"Any sufficiently advanced technology is indistinguishable from magic."',
-            '"The biggest mistake I made was believing if I cast a beautiful net, I\'d catch only beautiful things."']
+            '"The biggest mistake I made was believing if I cast a beautiful net, I\'d catch only beautiful things."',
+            '"What we know is a drop, what we don\'t know is an ocean." - Isaac Newton']
     motdchoice = random.choice(motdmsgs)
     try:
         with open("/etc/motd", "w") as etcmotd:
