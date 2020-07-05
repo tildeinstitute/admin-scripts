@@ -38,7 +38,19 @@ Start a conversation on the mailing list!
 
 Latency issues? Use 'mosh' instead of 'ssh'
 
-Please contact ahriman and kneezle with any questions:
+Please contact gbmor and kneezle with any questions:
     admins@tilde.institute
 
+
+**** 04 July 2020 ****
+Mail has switched from mbox to maildir. Please update your mutt configs accordingly:
+	set mbox_type=Maildir
+	set folder="~/Maildir"
+	set mbox="~/Maildir"
+	set spoolfile="~/Maildir"
+
+alpine has been rebuilt with the maildir patch.
+
+use the mb2md script to convert your old messages to maildir:
+	mb2md -s /var/mail/$USER -d $HOME/Maildir
 
