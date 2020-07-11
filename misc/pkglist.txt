@@ -2,7 +2,6 @@ GeoIP-1.6.12p2      find the country where IP address/hostname originates from
 acme-client-0.1.16p2 privilege-separated letsencrypt client
 acme-tiny-4.0.4p2v0 small 3rd-party letsencrypt client
 aggregate-1.6p1     optimise a list of route prefixes
-alpine-2.21p4       UW e-mail client
 angband-4.1.3-no_x11 rogue-like game
 apl-1.8             interpreter for the programming language APL
 asciidoc-8.6.9p1    text document format for writing documents and man pages
@@ -42,9 +41,11 @@ dungeon-2.7sp1      text adventure game
 elixir-1.10.2       functional language for building scalable applications
 elvish-0.13.1       cross-platform, friendly, and expressive shell
 emacs-26.3p1-no_x11 GNU editor: extensible, customizable, self-documenting
+entr-4.4            run arbitrary commands when files change
 exa-0.9.0p0         ls alternative written in Rust
 figlet-2.2.5        generates ASCII banner art
 fish-3.1.0p0        friendly interactive shell
+flang-8.0.1.20191107 LLVM Fortran compiler passes and runtime library
 fossil-2.10v0       simple distributed software configuration management
 fpc-3.0.4p0         open source compiler for Pascal/Object Pascal
 fping-4.2           quickly ping N hosts w/o flooding the network
@@ -114,6 +115,7 @@ hugo-0.69.2         fast and flexible static site generator
 iftop-1.0pre4p2     display bandwidth usage on an interface
 inotify-tools-3.14pl0 programs providing a simple interface to inotify
 intel-firmware-20200508v0 microcode update binaries for Intel CPUs
+intltool-0.51.0p2   internationalization tools
 ircII-20190117      Internet Relay Chat client
 irssi-1.2.2p1       modular IRC client with many features
 irssi-icb-0.17p1    ICB plugin for irssi
@@ -151,11 +153,12 @@ lynx-2.8.9rel1p0    text web browser
 lzlib-1.11          lzip compression library
 maven-3.6.0p0       software project management and comprehension tool
 mercurial-5.3.2     fast, lightweight source control management
+moarvm-2018.12p0    virtual machine for nqp/rakudo
 mono-6.8.0.105p1    cross platform, open source .NET developement framework
 moria-5.5.2p5       The Dungeons of Moria
 mosh-1.3.2p5        mobile shell
 most-5.1.0          browse or page through a text file
-mutt-1.13.5v3-gpgme-sasl tty-based e-mail client
+mutt-1.13.5p2v3-gpgme-sasl tty-based e-mail client
 nano-4.9.2          simple editor, inspired by Pico
 nasm-2.14.02p1      general-purpose multi-platform x86 assembler
 nbfc-0.1p1          new brainfuck compiler
@@ -168,6 +171,7 @@ nim-1.2.0p0         statically typed, imperative programming language
 ninja-1.10.0        small build system with a focus on speed
 nn-6.7.3p5          menu-based Usenet newsreader
 node-12.16.1        V8 JavaScript for clients and servers
+nqp-2018.12         Not Quite Perl
 ocaml-4.09.0        ML language with complete class-based objective system
 ocamlbuild-0.14.0p1 ocamlbuild
 opam-2.0.5p1        OCaml source-based package manager
@@ -190,33 +194,34 @@ p7zip-16.02p6       file archiver with high compression ratio
 p7zip-rar-16.02p3   rar modules for p7zip
 password-store-1.7.3 simple password store
 pear-1.10.9         base classes for common PHP tasks
-php-7.3.18          server-side HTML-embedded scripting language
+php-7.3.19          server-side HTML-embedded scripting language
 php-awl-0.61        Andrews web libraries for PHP
-php-bz2-7.3.18      bzip2 compression extensions for php
-php-cgi-7.3.18      php CGI binary
-php-curl-7.3.18     curl URL library extensions for php
-php-dba-7.3.18      dba GDBM access extensions for php
-php-dbg-7.3.18      interactive php debugger
-php-gmp-7.3.18      gmp math library support for php
-php-imap-7.3.18     imap, pop3 and nntp extensions for php
-php-intl-7.3.18     intl library support for php
-php-ldap-7.3.18     ldap protocol extensions for php
+php-bz2-7.3.19      bzip2 compression extensions for php
+php-cgi-7.3.19      php CGI binary
+php-curl-7.3.19     curl URL library extensions for php
+php-dba-7.3.19      dba GDBM access extensions for php
+php-dbg-7.3.19      interactive php debugger
+php-gmp-7.3.19      gmp math library support for php
+php-imap-7.3.19     imap, pop3 and nntp extensions for php
+php-intl-7.3.19     intl library support for php
+php-ldap-7.3.19     ldap protocol extensions for php
 php-markdown-1.6.0p0 Markdown implementation for PHP
 php-mcrypt-7.1.33   mcrypt encryption/decryption extensions for php
-php-odbc-7.3.18     odbc database access extensions for php
-php-pcntl-7.3.18    PCNTL extensions for php
-php-pspell-7.3.18   pspell library extensions for php
-php-shmop-7.3.18    shared memory extensions for php
-php-snmp-7.3.18     snmp protocol extensions for php
-php-soap-7.3.18     SOAP functions for php
-php-sqlite3-7.3.18  sqlite3 database access extension for php
-php-tidy-7.3.18     tidy HTML cleaner bindings
-php-xmlrpc-7.3.18   XML RPC functions for php
-php-xsl-7.3.18      XSL functions for php
-php-zip-7.3.18      zip functions for php
+php-odbc-7.3.19     odbc database access extensions for php
+php-pcntl-7.3.19    PCNTL extensions for php
+php-pspell-7.3.19   pspell library extensions for php
+php-shmop-7.3.19    shared memory extensions for php
+php-snmp-7.3.19     snmp protocol extensions for php
+php-soap-7.3.19     SOAP functions for php
+php-sqlite3-7.3.19  sqlite3 database access extension for php
+php-tidy-7.3.19     tidy HTML cleaner bindings
+php-xmlrpc-7.3.19   XML RPC functions for php
+php-xsl-7.3.19      XSL functions for php
+php-zip-7.3.19      zip functions for php
 pico-5.09p20        UW text editor
 pigz-2.4p0          parallel implementation of gzip utilizing multiple cores
 pinentry-1.1.0p0    PIN or passphrase entry dialog (ncurses interface)
+pkglocatedb-1.5     database of packages for use with locate(1)
 plan9port-20190619p0 Plan 9 from user space
 portslist-7.27      full list of pkgpaths in ports
 pwgen-2.08          simple password generator
@@ -238,6 +243,7 @@ py3-click-threading-0.4.3p0 multithreading in Python click
 py3-cparser-2.19p0  C parser in pure Python
 py3-cryptography-2.8 cryptographic recipes and primitives for Python
 py3-cython-0.29.14  optimising static compiler for Python and Cython
+py3-daemonize-2.5.0p0 library to enable your code run as a daemon process
 py3-dateutil-2.8.1  Python API for advanced date calculations
 py3-greenlet-0.4.15p0 lightweight in-process concurrent programming
 py3-idna-2.8        Python library to support the IDNA protocol
@@ -284,6 +290,7 @@ rust-rustfmt-1.42.0p0 Rust code formatter
 s-nail-14.9.17      SysV mail/BSD Mail/POSIX mailx: send and receive mail
 sbcl-2.0.1-threads  compiler and runtime system for ANSI Common Lisp
 scala-2.12.9        general purpose multi-paradigm programming language
+scdoc-1.10.1        convert scdoc text files to man(7) pages
 screen-4.8.0        multi-screen window manager
 shellcheck-0.4.7p1  shell script analysis tool
 sic-1.2p1           simple irc client
@@ -302,6 +309,7 @@ swirc-3.2.4p0       curses icb and irc client
 tarsnap-1.0.39      client for the tarsnap.com online encrypted backup service
 tarsnapper-0.4.0p2  tarsnap wrapper which automatically expires backups
 tcsh-6.22.02        extended C-shell with many useful features
+the_silver_searcher-2.2.0p0 code searching tool, with a focus on speed (ag)
 thinking-forth-1.0  philosophy of problem solving, applied to Forth
 tidy-5.7.24v0       correct and clean up HTML and XML
 tin-2.4.4           threaded NNTP- and spool-based UseNet newsreader
