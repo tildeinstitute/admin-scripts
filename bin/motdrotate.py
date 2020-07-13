@@ -18,14 +18,12 @@ def pullfile(filename):
 def rotatemotd(motd):
     motdmsgs = ['Abandon hope all ye who enter here',
             'We are such stuff as dreams are made on, and our little life is rounded with a sleep. - Prospero, The Tempest',
-            'To err is human. To really foul up you need a computer.',
-            '"In matters of life and death there is no cheating; there is only living and dying"',
             '"New technology is not good or evil in and of itself. It\'s all about how people choose to use it."',
-            '"Technology is, of course, a double-edged sword. Fire can cook our food but also burn us."',
-            '"If we lose love and self-respect for each other, this is how we finally die."',
-            '"We live in a society exquisitely dependent on science and technology, in which hardly anyone knows anything about science and technology."',
-            '"Any sufficiently advanced technology is indistinguishable from magic."',
+            '"If we lose love and self-respect for each other, this is how we finally die." - Maya Angelou',
+            '"We live in a society exquisitely dependent on science and technology, in which hardly anyone knows anything about science and technology." - Carl Sagan',
+            '"Any sufficiently advanced technology is indistinguishable from magic." - Arthur C Clarke',
             '"The biggest mistake I made was believing if I cast a beautiful net, I\'d catch only beautiful things."',
+            '"A punk rock song won\'t ever change the world, but I can tell you about a couple that changed me." - Pat the Bunny',
             '"What we know is a drop, what we don\'t know is an ocean." - Isaac Newton']
     motdchoice = random.choice(motdmsgs)
     try:
