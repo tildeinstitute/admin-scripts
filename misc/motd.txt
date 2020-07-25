@@ -38,6 +38,8 @@ Start a conversation on the mailing list!
 
 Latency issues? Use 'mosh' instead of 'ssh'
 
+Check out https://tilde.news!
+
 Please contact gbmor and kneezle with any questions:
     admins@tilde.institute
 
