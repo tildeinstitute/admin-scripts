@@ -18,8 +18,9 @@ def getBadProcs(procsList):
     )
 
     for proc in procsRunning:
+        lilproc = proc.lower()
         for badproc in procsList:
-            if badproc in proc.lower():
+            if badproc in lilproc:
                 procsFound.append("Found {0} :: {1}".format(badproc, proc))
 
     return procsFound
