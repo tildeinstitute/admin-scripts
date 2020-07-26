@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/local/bin/python3
 
 # Checks the process list for anything that could be potentially worrisome.
 # If something is found, emails the admins@tilde.institute account.
