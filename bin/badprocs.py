@@ -51,10 +51,7 @@ if __name__ == "__main__":
         "xmr",  # lots of monero miners have this in the name
     ]
 
-    while True:
-        procsFound = getBadProcs(procsList)
+    procsFound = getBadProcs(procsList)
 
-        if len(procsFound) > 0:
-            mailAdmins(procsFound)
-
-        time.sleep(300)
+    if len(procsFound) > 0:
+        mailAdmins(procsFound)
