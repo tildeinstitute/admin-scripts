@@ -24,6 +24,8 @@ starlanes     - Space stocks
 tron          - Play with other ~institute members!
 zork          - The classic adventure game
 
+Matanza - space war! telnet localhost 7993
+
 Tildeverse Dungeon Crawl Stone Soup server!
     Webtiles: https://crawl.tildeverse.org
     ASCII: Run the command 'dcss'
