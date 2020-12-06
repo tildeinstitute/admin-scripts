@@ -40,12 +40,9 @@ def mailAdmins(procsFound):
 
 if __name__ == "__main__":
     procsList = [
-        "crowdserv",  # sauerbraten
         "eggdrop",
         "miner",  # lots of btc miners have this in the name
         "nmap",
-        "regen2",  # sauerbraten
-        "sauer",  # sauerbraten
         "torrent",
         "transmission",
         "tshark",
