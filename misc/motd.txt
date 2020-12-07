@@ -32,7 +32,7 @@ Tildeverse Dungeon Crawl Stone Soup server!
 
 MUD clients:    tintin++ (tt++), tinyfugue (tf)
 Mail clients:   mutt neomutt alpine lumail
-Gopher clients: lynx gopher bombadillo vf1
+Gopher clients: lynx gopher bombadillo vf1 sacc
 IRC clients:    weechat (chat), irssi, swirc, catgirl, ircII
 
 Start a conversation on the mailing list!

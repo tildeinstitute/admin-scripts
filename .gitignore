@@ -1,6 +1,7 @@
 misc/toot.json
 renew-wildcard.sh
 fuzzies.log
+fuzzies-historical.log
 users-added.log
 newusers.dat
 newuseralert.py
