@@ -1,4 +1,4 @@
-#!/usr/local/bin/python2
+#!/usr/local/bin/python3
 
 import json
 import os
@@ -50,7 +50,7 @@ def toot(status, media):
         status = "".join(sys.stdin).strip()
 
     # replace shortcodes with emoji :thumbsup:
-    status = emoji.emojize(status, use_aliases=True)
+    status = emoji.emojize(status, language='alias')
 
     # check status length and post status
     if len(status) > 500:

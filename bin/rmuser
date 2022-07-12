@@ -1,16 +1,17 @@
-#!/usr/local/bin/bash
+#!/bin/sh
+set -eu
 
-# Hopefully, this never has to be used.
-# Cleans up and removes a user from the system.
-# gbmor <ben@gbmor.dev>
+if [ -z "$1" ]; then
+	printf 'Please pass a user as the first argument.\n'
+	exit 1
+fi
 
-echo "Removing user $1 from the system"
-userdel $1
-echo "Cleaning /home and /var/www/users"
-rm -rf /home/$1
-rm -rf /var/www/users/$1
-echo "Removing httpd config"
-rm -f /etc/httpd/$1.conf
-httpdpid=`pgrep httpd | awk 'NR==1{print $1}'`
-kill -HUP $httpdpid
-echo "Done! Don't forget to remove the appropriate include line from httpd-vusers.conf"
+printf 'Removing user %s from the system\n' "$1"
+userdel -r -v "$1"
+printf 'Cleaning /var/www/users/%s\n' "$1"
+rm -rf "/var/www/users/$1"
+printf 'Deleting cgit repos\n'
+rm -rf "/var/www/cgit_repos/$1"
+printf 'Removing httpd config\n'
+rm -f "/etc/httpd/$1.conf"
+printf 'You need to remove the include line from httpd-vusers.conf and restart httpd\n'

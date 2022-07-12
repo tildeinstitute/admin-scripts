@@ -2,7 +2,11 @@ misc/toot.json
 renew-wildcard.sh
 fuzzies.log
 fuzzies-historical.log
+fuzzies-denied.log
 users-added.log
+users-denied.log
+users-maybe.log
 newusers.dat
 newuseralert.py
 gotifytokens.txt
+bin/instistats

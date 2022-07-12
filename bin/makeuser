@@ -84,13 +84,20 @@ case $1 in
 # to the main site
     sort -u /etc/httpd-vusers.conf > /etc/httpd-vusers.conf.sorted
     cp /etc/httpd-vusers.conf.sorted /etc/httpd-vusers.conf
-    pkill -HUP httpd
+    #pkill -HUP httpd
+    rcctl restart httpd
 
 # send welcome email
         sed -e "s/newusername/$1/g" /admin/misc/email.tmpl | mail -r admins@tilde.institute -s "welcome to tilde.institute!" $2
 
 # subscribe to mailing list
-    echo " " | doas -u $1 mail -s "subscribe" institute-join@lists.tildeverse.org
+    #echo " " | doas -u $1 mail -s "subscribe" institute-join@lists.tildeverse.org
+
+# lock down the users' history files so they can't be deleted or truncated (bash and ksh only)
+    doas -u "$1" touch /home/$1/.history
+    doas -u "$1" touch /home/$1/.bash_history
+    chflags uappnd /home/$1/.history
+    chflags uappnd /home/$1/.bash_history
 
 # announce the new user's creation on mastodon
 # then copy their ssh key to their home directory
