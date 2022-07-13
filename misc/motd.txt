@@ -38,23 +38,14 @@ IRC clients:    weechat (chat), irssi, swirc, catgirl, ircII
 Start a conversation on the mailing list!
     institute@lists.tildeverse.org
 
+OpenBSD source tree available at:
+    /usr/src           (STABLE)
+    /usr/src-current   (CURRENT)
+
 Latency issues? Use 'mosh' instead of 'ssh'
 
 Check out https://tilde.news!
 
 Please contact gbmor and kneezle with any questions:
     admins@tilde.institute
-
-
-**** 04 July 2020 ****
-Mail has switched from mbox to maildir. Please update your mutt configs accordingly:
-	set mbox_type=Maildir
-	set folder="~/Maildir"
-	set mbox="~/Maildir"
-	set spoolfile="~/Maildir"
-
-alpine has been rebuilt with the maildir patch.
-
-use the mb2md script to convert your old messages to maildir:
-	mb2md -s /var/mail/$USER -d $HOME/Maildir
 
