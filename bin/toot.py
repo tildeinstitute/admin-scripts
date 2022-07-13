@@ -1,5 +1,7 @@
 #!/usr/local/bin/python3
 
+# this was modified from an older version of https://tildegit.org/ben/toot
+
 import json
 import os
 import sys
